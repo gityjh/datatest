@@ -1,0 +1,5 @@
+CREATE TABLE department (
+d_id VARCHAR ( 20 ) NOT NULL DEFAULT '' COMMENT '部门编号',
+d_name VARCHAR ( 20 ) NOT NULL DEFAULT '' COMMENT '部门名称',
+PRIMARY KEY ( d_id ) USING BTREE
+);
