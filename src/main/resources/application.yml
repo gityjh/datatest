@@ -1,9 +1,11 @@
+server:
+  port: 8086
 spring:
   datasource:
     username: root
     password: 123456
     #mysql数据库8以上需要加上时区配置
-    url: jdbc:mysql://localhost:3306/haoyue_learn?useSSL=false&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/haoyue_learn?useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=utf-8
     #mybatis8以上用cj
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
